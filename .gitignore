@@ -1,0 +1,8 @@
+# Idea configuration path
+.idea
+
+# Idea configuration files
+**/*.iml
+
+# Target files
+design-patterns/target
