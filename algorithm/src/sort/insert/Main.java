@@ -1,11 +1,11 @@
-package sort.bubble;
+package sort.insert;
 
 import sort.SortActions;
 
 public class Main {
 
     public static void main(String[] args) {
-        new SortActions(new BubbleSort()).doSort(20);
+        new SortActions(new InsertionSort()).doSort(20);
     }
 
 }

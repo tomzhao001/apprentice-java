@@ -1,6 +1,8 @@
 package sort.bubble;
 
-public class BubbleSort {
+import sort.ISort;
+
+public class BubbleSort implements ISort {
 
     public void sort(Integer[] arrayToSort) {
         int arrayLength = arrayToSort.length;
